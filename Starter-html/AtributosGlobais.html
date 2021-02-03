@@ -14,12 +14,22 @@
     => Esconde ou não uma tag.
 
     - id:
-    => 
+    => Identificar uma tag para criação de lógica em JavaScript e estilização no CSS(é importante não criar duas tags com mesmo id, mesmo que não cause problemas no HTML pode vir a causar no CSS ou JS).
+    Repetição de nomes => Classe
+
+    - style:
+    => Estilizar tags no HTML sem utilizar diretamente o CSS.
+
+    - tabindex:
+    => Define os índices ou a ordem das tags para onde o navegador levará o usuário a cada vez que ele apertar a tecla tab.
+
+    - title:
+    => Define um título para a tag. Irá aparecer na tela quando o usuário deixar o mouse descansando acima do texto na página que pertence à tag.
  -->
 
 
  
- <div class="carrinho" contenteditable="true">
+ <div class="carrinho" contenteditable="true" title="Título da tag">
      Conteúdo aqui
  </div>
 
@@ -27,6 +37,26 @@
      Conteúdo aqui
  </div>
 
- <div class="carrinho" hidden>
+ <div class="carrinho" hidden id="nome">
      Contéudo aqui
  </div>
+
+ <div style="color:blueviolet">
+    Conteúdo aqui
+ </div>
+
+ <a href="https://www.youtube.com/watch?v=bmVKaAV_7-A" style="color:aqua">
+    Link Joma Stream
+</a>
+
+<div tabindex=1>
+    Primeiro tab
+</div>
+
+<div tabindex=2>
+    Segundo tab
+</div>
+
+<div tabindex=3>
+    Terceiro tab
+</div>
