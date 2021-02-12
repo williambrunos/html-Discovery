@@ -1,0 +1,59 @@
+<!--
+    Tag âncora para hiperlinks: <a></a>
+
+    *Atributos:
+
+        - Globais;
+        - href (refference);
+            - para onde iremos quando clicarmos no link?
+            - URL;
+            - fragmento;
+            - e-mail;
+            - contato;
+            - etc.
+
+        - download;
+        - target;
+            -_self (padrão) => Abre uma nova página substituindo a atual
+            -_blank => leva o usuário para uma nova página sem substituir
+            a a tual;
+-->
+
+<a href="http://google.com" target="_self">link na mesma página</a>
+<br>
+<a href="http://google.com" target="_blank">link para nova página</a>
+
+<h1>Encontre-me:</h1>
+<ul>
+    <li><a href="https://rocketSeat.com.br" target="_blank">Website</a></li>
+
+    <li><a href="https://github.com/williambrunos" target="_blank">GitHub</a></li>
+    
+    <li><a href="mailto:williambruno172@gmail.com">E-mail</a></li>
+
+    <li><a href="tel:+5588998577981">Telefone</a></li>
+</ul>
+
+<!--
+    Para fazer links com fragmentos da página:
+    - Dizemos qual atributo global ele deve procurar no html da página e redirecionar o usuário para a tag que o contêm.
+-->
+
+<ul>
+    <li><a href="#about">saiba mais</a></li>
+
+    <li><a href="#history">história</a></li>
+
+    <li><a href="#works">trabalhos</a></li>
+</ul>
+
+<h1>INFO:</h1>
+
+<h2 id="about">Sobre mim:</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis harum error quo consequatur in officiis, consectetur amet quas vel, nemo iusto doloremque neque laboriosam aperiam deleniti. Blanditiis temporibus reiciendis est.
+
+<h2 id="history">História:</h2>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. In officia, numquam porro vel eaque facilis illo ducimus sapiente quibusdam. Hic repellat itaque totam cum at vel, veritatis nihil porro quaerat!
+
+<h2 id="works">Trabalhos:</h2>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid explicabo exercitationem eos, consequuntur aperiam ullam facilis quidem nisi officiis neque iusto delectus temporibus voluptatum accusantium, commodi laborum, ad labore praesentium!
