@@ -4,6 +4,8 @@
     O comando rowspan='integer' fazem com que o elemento de cabeçalho ocupe um número inteiro de linhas. É uma estratégia para fazer a coluna vazia empurrar as não vazias para que se alinhem com os cabeçalhos. 
     
     Ademais, o comando colspan='integer' faz com que o elemento ocupe um número inteiro de colunas, fazendo com que ele possa se alinhar mais facilmente, por exemplo.
+
+    colgroup permite estilizar um grupo de colunas no próprio html
 -->
 
 <table>
@@ -11,6 +13,12 @@
     <caption>
         Produtos produzidos vs vendidos por loja
     </caption>
+
+    <colgroup>
+        <col>
+        <col span='2' style='background-color: red;'>
+        <col span='2' style='background-color: blue;'>
+    </colgroup>
 
     <thead>
         <tr>
