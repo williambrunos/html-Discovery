@@ -1,0 +1,60 @@
+<!--
+    * Head é a parte que não estará visível no navegador
+    * Contêm as principais informações a respeito da configuração do site, como por exemplo:
+        => Conjunto de caracteres da página(UTF-8)
+        => Links de arquivos CSS ou JavaScript
+        => Tamanho da página de acordo com o dispositivo
+        => Título da página
+        => Meta dados etc...
+
+    * A tag meta configura os meta dados do site:
+        => Codificação de caracteres especiais(UTF-8)
+        => Portabilidade para diferentes dispositivos
+
+    * Podemos ainda adicionar um ícone a nossa página através de uma tag 'link' adicionando um favicon(favorite icon)
+        => tag link dentro do head com rel='icon' href='diretório da imagem'
+
+    * Temos métodos de SEO (Search Engine Optimization):
+        => meta charset => caracteres
+        => meta viewport => portabilidade
+        => meta name='author' => autor
+        => meta title => título
+        => meta Description => descrição
+        => meta robot => permissões para robôs de busca => Você pode estudar melhor sobre isso em :
+
+        https://developers.google.com/search/docs/advanced/robots/robots_meta_tag?hl=pt
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Configurando o conjunto de caracteres-->
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Configurando a portabilidade do site-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Definição do autor do site-->
+    <meta name='author' content='William Bruno'>
+
+    <!--Definição da descrição do site-->
+    <meta name='Description' content='Um pequeno site de configurações de cabeçalho html'>
+
+    <!--Configuração das permissões dos robôs de busca-->
+    <meta name='robots' content='index, follow'>
+
+    <!--Adicionando um ícone a nossa página-->
+    <link rel="icon" href="./manke.jpg">
+
+    <title>Head</title>
+</head>
+    <header>
+        <h1>Oh hai, world!</h1>
+    </header>
+<body>
+    
+</body>
+</html>
